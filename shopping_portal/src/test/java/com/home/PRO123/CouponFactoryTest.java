@@ -1,0 +1,40 @@
+package com.home.PRO123.model;
+
+//import com.home.PRO123.persistence.CouponDAO;
+import com.home.PRO123.factory.CouponFactory;
+import static org.junit.Assert.assertEquals;
+//import static org.junit.Assert.assertNotEquals;
+
+import org.junit.Test;
+import org.junit.Before;
+import org.junit.runner.RunWith;
+
+//import mockit.Expectations;
+//import mockit.MockUp;
+//import mockit.Mocked;
+//import mockit.Mock;
+import mockit.integration.junit4.JMockit;
+//import java.util.ArrayList;
+
+/**
+ * Test class for Coupon.
+ */
+@RunWith(JMockit.class)
+public class CouponFactoryTest {
+    /**
+   * setup method.
+   */
+  @Before
+  public void initInput() {
+
+  }
+  /**
+   * Tests the equals/hashcode methods of the employee class.
+   */
+  @Test
+  public final void testCouponFactory() {
+    final Coupon m1 = new Coupon(002, "coupon2021", 1, 1);
+    Coupon[] mn1 = CouponFactory.showMenu();
+    assertEquals(m1.hashCode(), mn1[0].hashCode());
+  }
+}
