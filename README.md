@@ -1,6 +1,6 @@
-## Shopping Portal (Backend)
+# Shopping Portal (Backend)
 
-# Languages and Technologies Used: 
+## Languages and Technologies Used: 
    * JAVA
    * REST API - for API calls
    * JMockit - For testing in Java
