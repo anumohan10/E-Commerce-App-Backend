@@ -1,4 +1,4 @@
-# Shopping Portal (Backend)
+# E-Commerce App (Backend)
 
 ## Languages and Technologies Used: 
    * JAVA
