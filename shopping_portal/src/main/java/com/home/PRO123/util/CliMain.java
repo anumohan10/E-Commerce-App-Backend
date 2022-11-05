@@ -1409,12 +1409,12 @@ public class CliMain {
     prop.setProperty("mail.smtp.host", "smtp.gmail.com");
     prop.setProperty("mail.smtp.port", "587");
     prop.setProperty("mail.smtp.user", "cravingsmlp290@gmail.com");
-    prop.setProperty("mail.smtp.password", "cms12345");
+    prop.setProperty("mail.smtp.password", "######");
     prop.setProperty("mail.smtp.starttls.enable", "true");
     prop.setProperty("mail.smtp.auth", "true");
     Session session = Session.getDefaultInstance(prop, new javax.mail.Authenticator() {
       protected PasswordAuthentication getPasswordAuthentication() {
-        return new PasswordAuthentication("cravingsmlp290@gmail.com", "cms12345");
+        return new PasswordAuthentication("ecommerce22344gmail.com", "######");
         } });
     try {
       MimeMessage message = new MimeMessage(session);
